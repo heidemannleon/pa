@@ -53,27 +53,17 @@ console.log(arvud);
 
 // Tsüklid
 
-// for tsükkel
-// üldtsükkel
-let numbrid = [];
-// lisame nimekirja sisse juhuslikud arvud
-for(let i = 0; i < 10; i++){
-  let arv = Math.floor(Math.random() * 10);
-  numbrid.push(arv);  
+// while
+// eelkontrolliga tsükkel
+let number = 5; // defineerime numbri
+// defineerime jagaja algväärtuse
+let jagaja = 2;
+
+while(arv % jagaja != 0){
+    jagaja++;
 }
-// kontrollime tulemus
-console.log(numbrid);
-// sorteerime kasvujärjekorras
-// numbrid.sort();
-for(let kord = 0; kord < numbrid.length; kord++){
-  for(let i = 0; i < numbrid.length; i++){
-    let abi;
-    if(numbrid[i] > numbrid[i+1]){
-      abi = numbrid[i];
-      numbrid[i] = numbrid[i+1];
-      numbrid[i+1] = abi;
-    } 
-  }
+if(arv == jagaja) {
+    console.log(arv + ' on algarv');
+} else {
+    console.log(arv + ' ei ole algarv');
 }
-// kontrollime tulemus
-console.log(numbrid);
