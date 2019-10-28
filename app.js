@@ -1,3 +1,5 @@
+
+
 // Muutujad
 
 // var
@@ -43,3 +45,50 @@ const arvud = [1, 2, 3, 4, 5];
 console.log(arvud);
 arvud.push(6);
 console.log(arvud);
+
+
+
+// näiteprogrammid
+ // !=  ei võrdu
+
+
+
+// näiteprogrammid 1
+if (sisestatud_pin == "1234") {
+    console.log('Sisenesid pangaautomaati!');
+} else {
+    console.error('Vale parool! Ligipääs keelatud!');
+}
+
+// näiteprogrammid 2
+
+let vastus = ['0' + '0' + '7'];
+if (vastus = '007') {
+    console.log('On võrdsed!');
+} else {
+    console.error('Ei ole võrdsed!');
+}
+
+// näiteprogrammid 3
+console.log('Kui vana oled');
+let vanus = ;
+
+
+
+
+
+
+// tsüklid
+
+// for tsükkel
+// ehk üldtsükkel
+
+let arv;
+for(arv = 1; arv <= 10; arv++)({
+    if(arv < 10) {
+    console.log('arv = ' + arv);
+} else {
+    console.log('arv = ' + arv);
+}
+}
+
