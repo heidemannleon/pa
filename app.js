@@ -51,12 +51,10 @@ console.log(arvud);
 
 
 
-
 // Tsüklid
 
 // for tsükkel
 // üldtsükkel
-// let arv;
 let lause;
 for(let arv = 1; arv <= 10; arv++){
   lause = 'arv =  ';
@@ -68,7 +66,9 @@ for(let arv = 1; arv <= 10; arv++){
     lause = lause + ' - paaris';
   } else {
     lause = lause + ' - paaritu';
-    continue;
   }
   console.log(lause);
+  if(arv >= 5) {
+    break;
+  }
 }
