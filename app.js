@@ -48,47 +48,26 @@ console.log(arvud);
 
 
 
-// näiteprogrammid
- // !=  ei võrdu
-
-
-
-// näiteprogrammid 1
-if (sisestatud_pin == "1234") {
-    console.log('Sisenesid pangaautomaati!');
-} else {
-    console.error('Vale parool! Ligipääs keelatud!');
-}
-
-// näiteprogrammid 2
-
-let vastus = ['0' + '0' + '7'];
-if (vastus = '007') {
-    console.log('On võrdsed!');
-} else {
-    console.error('Ei ole võrdsed!');
-}
-
-// näiteprogrammid 3
-console.log('Kui vana oled');
-let vanus = ;
 
 
 
 
-
-
-// tsüklid
+// Tsüklid
 
 // for tsükkel
-// ehk üldtsükkel
-
-let arv;
-for(arv = 1; arv <= 10; arv++)({
-    if(arv < 10) {
-    console.log('arv = ' + arv);
-} else {
-    console.log('arv = ' + arv);
+// üldtsükkel
+// let arv;
+let lause;
+for(let arv = 1; arv <= 10; arv++){
+  lause = 'arv =  ';
+  if(arv < 10) {
+    lause = lause + ' ';
+  }
+  lause = lause + arv;
+  if(arv % 2 == 0){
+    lause = lause + ' - paaris';
+  } else {
+    lause = lause + ' - paaritu';
+  }
+  console.log(lause);
 }
-}
-
