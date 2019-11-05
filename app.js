@@ -1,14 +1,29 @@
-// fUNKTSIOONID
-function paarsuseKontroll(){
-    // ARVU PAARSUSE KONTROLL
-    // Defineerin suvalise täisarvu
-    let arv = 5;
+// Funktsioonid
+
+// arvu paarsuse kontroll
+// funktsiooni defineerimine
+/* 
+function funktsiooniNimi([param1, param2, .., paramN]){
+  funktsiooni sisu
+}
+*/
+function paarsuseKontroll(arv){
+    // tulemuslause defineerimine
+    let lause;
     // arvutame jääk 2-ga jagamisel
     let jaak = arv % 2;
+    // kui jaak on võrdne nulliga
     if( jaak === 0 ){
-        console.log(arv + 'on paaris')
-    }else {
-        console.log(arv + 'on paaritu');
+      // tegu on paaris avuga
+      lause =  arv + ' on paaris';
+    } else {
+      // tegu on paaritu arvuga
+      lause =  arv + ' on paaritu';
     }
-}
-paarsuseKontroll();
+    // tagastame antud väärtus
+    return lause;
+  }
+  // funktsiooni kasutamine
+  let paarsus;
+  paarsus = paarsuseKontroll(4);
+  console.log(paarsus);
