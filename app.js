@@ -2,10 +2,10 @@
 // Funktsioonid
 
 // Funktsioon, mis arvutab 
-// riistküliku pindala
+// ristküliku pindala
 // ja väljastab ekraani
 
-function riistkylikuPindala(pikkus, laius){
+function ristkylikuPindala(pikkus, laius){
     // väljastame väärtused
     console.log('Pikkus = ' + pikkus);
     console.log('Laius = ' + laius);
@@ -15,4 +15,4 @@ function riistkylikuPindala(pikkus, laius){
     console.log('Pindala = ' + pindala);
   }
   
-  riistkylikuPindala(15, 5);
+  ristkylikuPindala(15, 5);
